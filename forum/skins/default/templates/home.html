@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AutoCAD</title>
+
+
+    {% load extra_tags ui_registry i18n extra_filters %}
+    <link rel='stylesheet' href="{% media '/media/style/bootstrap.min.css' %}" type='text/css'/>
+    <link rel='stylesheet' href="{% media '/media/style/jumbotron.css' %}" type='text/css'/>
+    <link rel="shortcut icon" href="{%  media '/media/images/ico.png' %}">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="{% url "index" %}">
+            <img src="{% media "/media/images/acadlogo.png" %}" title="back to home page" alt="acad logo"/>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="jumbotron" style="background-image:url('{% media "/media/images/back3.png" %}')">
+      <div class="container">
+        <h1>  </h1>
+        <h3>欢迎来到AutoCAD中文社区</h3>
+        <h1>  </h1>
+        <!--p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p-->
+      </div>
+    </div>
+    
+    <div class="marketing">
+    <!--div class="container"-->
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 btn btn-default">
+          <img class="img-circle" src="{% media "/media/images/pencil.png" %}" alt="design" width="140" height="140">
+          <a href="/index"><h2>设计</h2></a>
+          <p>提出你的构想，参与cad的设计</p>
+        </div>
+        <div class="col-md-4 btn btn-default">
+          <img class="img-circle" src="{% media "/media/images/newspaper.png" %}" alt="news" width="140" height="140">
+          <a><h2>新闻</h2></a>
+          <p>跟踪cad动态，获得最新资讯</p>
+          <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
+       </div>
+       <div class="col-md-4 btn btn-default">
+          <img class="img-circle" src="{% media "/media/images/newspaper.png" %}" alt="news" width="140" height="140">
+          <a><h2>反馈</h2></a>
+          <p>联系我们</p>
+          <!--p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p-->
+       </div>
+      </div>
+
+
+    <!--/div--> <!-- /container -->
+    </div>
+    
+    <div>
+          <hr>
+      <footer>
+        <p>© 2017 Autodesk Inc. All rights reserved  </p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </body>
+</html>
