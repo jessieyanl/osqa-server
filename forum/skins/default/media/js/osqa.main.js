@@ -1064,9 +1064,9 @@ var i18nZh = {
 	'horizontal bar':'???',
 	'undo':'??',
 	'redo':'??',
-	'enter image url':'<b>??????</b></p><p>???<br />http://www.example.com/image.jpg   \"????\"',
+	'enter image url':'<b>输入图片路径</b></p><p>如：<br />http://www.example.com/image.jpg  ',
 	'enter url':'<b>??Web??</b></p><p>???<br />http://www.cnprog.com/   \"????\"</p>"',
-	'upload image':'?????????'
+	'upload image':'上传本地图片'
 };
 
 var i18nEn = {

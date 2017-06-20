@@ -1198,6 +1198,8 @@ msgid ""
 "Tags are short keywords, with no spaces within. At least %(min)s and up to "
 "%(max)s tags can be used."
 msgstr ""
+"可以使用 %(min)s 到 %(max)s 个标签 "
+"每个标签小于 20 个字符 "
 
 #: forum/forms/qanda.py:100
 #, python-format
@@ -3385,7 +3387,7 @@ msgstr "(必需)"
 #: forum/skins/default/templates/ask.html:163
 #: forum/skins/nuxeo/templates/ask.html:182
 msgid "Login/signup to post your question"
-msgstr ""
+msgstr "登录或注册来提交"
 
 #: forum/skins/default/templates/ask.html:165
 #: forum/skins/nuxeo/templates/ask.html:184
@@ -4185,7 +4187,7 @@ msgstr "第一个回复该想法"
 #: forum/skins/default/templates/question.html:266
 #: forum/skins/nuxeo/templates/question.html:267
 msgid "Login/Signup to Post Your Answer"
-msgstr ""
+msgstr "登录或注册来提交"
 
 #: forum/skins/default/templates/question.html:269
 #: forum/skins/nuxeo/templates/question.html:270

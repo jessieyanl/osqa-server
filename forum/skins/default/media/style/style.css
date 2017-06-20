@@ -231,6 +231,16 @@ blockquote blockquote {
     text-decoration:none;
 }
 
+#logo p{
+    vertical-align: top;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    color:#2a5594;
+    text-decoration:none;
+}
+
 #nav {
     float: right;
     margin: 35px 0px 0px 0px;
